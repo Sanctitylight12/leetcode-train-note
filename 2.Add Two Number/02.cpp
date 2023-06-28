@@ -78,12 +78,34 @@ A鍊點1+B鍊點1，當作一層遞迴，遞迴在跳轉時，要帶上進位的
  * };
  */
 
+
+// class LinkedList;    // 為了將class LinkedList設成class ListNode的friend,
+// //參考資料  http://alrightchiu.github.io/SecondRound/linked-list-xin-zeng-zi-liao-shan-chu-zi-liao-fan-zhuan.html
+
+// class LinkedList{
+// private:
+//     // int size;                // size是用來記錄Linked list的長度, 非必要
+//     ListNode *first;            // list的第一個node
+// public:
+//     LinkedList():first(0){};
+//     void PrintList();           // 印出list的所有資料
+//     void Push_front(int x);     // 在list的開頭新增node
+//     void Push_back(int x);      // 在list的尾巴新增node
+//     void Delete(int x);         // 刪除list中的 int x
+//     void Clear();               // 把整串list刪除
+//     void Reverse();             // 將list反轉: 7->3->14 => 14->3->7
+// };
+
+
+
 //  struct ListNode {
 //      int val;
 //       ListNode *next;
 //       ListNode() : val(0), next(nullptr) {}
 //       ListNode(int x) : val(x), next(nullptr) {}
 //       ListNode(int x, ListNode *next) : val(x), next(next) {}
+
+//       // friend class LinkedList;
 // };
 
 
@@ -129,9 +151,9 @@ A鍊點1+B鍊點1，當作一層遞迴，遞迴在跳轉時，要帶上進位的
 // int main(void)
 // {
     
-//     //mock
-//     //Input: n = 4, paths = [[1,2],[2,3],[3,4],[4,1],[1,3],[2,4]]
-//     //Output: [1,2,3,4]
+//     //mock，實際要能跑應該要多補一個LinkedList，不過不太確定。尤其是塞資料的部分
+//     //Input: l1 = [2,4,3], l2 = [5,6,4]
+//     //Output: [7,0,8]
 
 
 //     Solution testObj;
