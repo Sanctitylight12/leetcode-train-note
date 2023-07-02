@@ -86,7 +86,7 @@ public:
         if (!head || !head->next) return head;
         
         ListNode *temp = head->next;
-        head->next = swapPairs(temp->next); 
+        head->next = swapPairs(temp->next); //把head->next->next丟進遞迴，去至換
         temp->next = head;
         
         return temp;
