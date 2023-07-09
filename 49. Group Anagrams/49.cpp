@@ -72,3 +72,21 @@ public:
 // map<string, int>::iterator p = m.begin();
 // p->first; // 這個是 string 值是 "one"
 // p->second; //這個是 int 值是 1
+
+
+// vector<vector<string>>用法概念：This is definition of 2 dimension-array of strings with size n.
+// int main()
+// {
+//   string a = "AAAA";
+//   string b = "BBBB";
+//   string c = "CCCC";
+//   int n = 3;
+//   vector<vector<string>> arr(n);
+
+//   arr[0].push_back(a); // I add string 'a' to end of first vector in 'arr' 
+//   arr[0].push_back(b);
+//   arr[1].push_back(c);
+//   for (int i = 0; i < arr[0].size() ; i++) { // print all string in first vector of 'arr'
+//      cout << arr[0][i] << " ";
+//   }
+// } 
