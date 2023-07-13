@@ -30,6 +30,8 @@ Explanation: Because the new interval [4,8] overlaps with [3,5],[6,7],[8,10].
 
 */
 
+// size_t : https://zihengcat.github.io/2017/06/02/c-learning-notes-understanding-size_t/
+
 
 //greedy
 // class Solution {
