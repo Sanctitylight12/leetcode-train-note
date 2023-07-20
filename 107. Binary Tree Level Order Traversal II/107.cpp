@@ -22,7 +22,13 @@ using namespace std;
  
 /*
 
-Given the root of a binary tree, return the bottom-up level order traversal of its nodes' values. (i.e., from left to right, level by level from leaf to root).
+//自底向上層序便歷 二元樹
+
+Given the root of a binary tree, 
+
+return the bottom-up level order traversal of its nodes' values. 
+
+(i.e., from left to right, level by level from leaf to root).
 
  
 
